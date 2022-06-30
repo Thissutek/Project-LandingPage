@@ -1,5 +1,9 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
 
@@ -31,4 +35,60 @@ ul {
 li {
     list-style-type: none;
     display: flex;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.modal {
+    background: #3882F6;
+    color: white;
+    width: 480px;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 32px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.sign-up {
+    color: white;
+    background-color: transparent;
+    border: 4px white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    color: white;
+    font-size: 10px;
+    padding: 16px;
+}
+
+.sub-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
