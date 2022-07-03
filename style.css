@@ -4,8 +4,46 @@ body {
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    
 }
 
+.landing-page {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 64px;
+
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+img {
+    width: 500px;
+    height: 200px;
+    
+}
 
 .logo {
     font-size: 24px;
@@ -21,7 +59,7 @@ body {
     justify-content: space-between;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 0 16px;
+    padding: 0 64px;
 }
 
 
@@ -43,6 +81,7 @@ li {
     justify-content: center;
     align-items: flex-end;
     flex-wrap: wrap;
+    padding: 64px;
 }
 
 .modal {
@@ -56,6 +95,7 @@ li {
     margin: 32px;
     flex-direction: column;
     flex-wrap: wrap;
+    border-radius: 25px;
 }
 
 .header {
@@ -85,10 +125,21 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 64px;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 64px;
 }
+
+.image {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 2px;
+    border-color: #3882F6;
+}
+
